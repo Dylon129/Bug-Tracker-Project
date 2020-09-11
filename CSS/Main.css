@@ -1,0 +1,60 @@
+
+/*Nav Bar */
+ ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Topbar li{
+    float: right;
+    
+}
+
+
+nav li a{
+    
+    list-style-type: none;
+    display: inline-flex;
+    color: #818181;
+    text-align: center; 
+    padding: 14px 16px;
+}
+/* remove underline in bar*/
+nav li a:link {
+    text-decoration: none;
+}
+
+/* Hover effect*/
+
+nav li a:hover{
+    color: #f1f1f1;
+}
+
+/*Side Bar */
+
+.sidebar li {
+height: 100%;
+width: 85px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+transition: 0.5s;
+overflow-x: hidden;
+padding-top: 60px;
+white-space: nowrap;
+}
+
+
+.material-icons,
+.icon-text {
+vertical-align: middle;
+}
+.material-icons {
+padding-bottom: 3px;
+margin-right: 30px;
+}
+
