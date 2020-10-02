@@ -6,6 +6,7 @@
         <li><a href="BugTracker/search.php"><span class="material-icons">search</span><span>Search</span></a></li>
         <li><a href="Calander.php"><span><i class="material-icons">date_range</i></span><span class="icon-text">Calander</span></a></li>
         <li><a href="Pages.php"><span><i class="material-icons">library_books</i></span><span class="icon-text">Pages</span></a></li>
+        <li><a href="Administrator.php"><span class="material-icons">dashboard</span><span class="icon-text">Admin</span></a></li>
         
     </ul>
 </nav>
