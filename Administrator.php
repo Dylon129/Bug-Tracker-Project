@@ -3,10 +3,11 @@
     <?php include ('Navigation/NavBar.php'); ?>
     <?php include('Navigation/SideNav.php'); ?>
     
-    <div id="main" class="container-fluid row">
-        <div class="column left">Resources and Feature knowledge</div>
-        <div class="column right">Widget one</div>
-        <div class="column right">Widget two</div>
+    <div id="main" class="grid-container adminMain">
+        <div class="Calendar-and-recent-updates">Calander/Recent updates</div>
+        <div class="Monthly-Projection-graph"></div>
+        <div class="Users-projects-and-task"></div>
+        <div class="Other-production-widget"></div>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

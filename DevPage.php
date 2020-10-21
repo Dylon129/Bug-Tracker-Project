@@ -1,8 +1,6 @@
 <?php include('Backend/Head.php'); ?>
 <body>
     <?php include ('Navigation/NavBar.php'); ?>
-    <div>
-    </div>
     <?php include('Navigation/SideNav.php'); ?>
     <table id="main">
         <thead>

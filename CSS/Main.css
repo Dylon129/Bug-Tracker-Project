@@ -28,6 +28,7 @@ nav li a{
 /* remove underline in bar*/
 nav li a:link {
     text-decoration: none;
+   
 }
 
 /* Hover effect*/
@@ -44,7 +45,7 @@ nav li a:hover{
 }
 
 .Topbar {
-    background-color: black;
+    background-color: #111;
     overflow: hidden;
 }
 
@@ -70,14 +71,15 @@ ul li ul.dropdown{
         min-width: 100%; /* Set width of the dropdown */
         background: #f2f2f2;
         display: none;
-        position: absolute;
+        position: relative;
         z-index: 999;
         left: 0;
 }
 
 ul li:hover ul.dropdown{
     display: inherit;
-    background: black;
+    background: #111;
+    text-align: center;
 }
 
 
@@ -182,3 +184,77 @@ tr:nth-child(even) td {
   display: table;
   clear: both;
 }
+
+
+
+/* Admin Page info*/
+
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container.adminMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    "Monthly-Projection-graph Monthly-Projection-graph Other-production-widget Calendar-and-recent-updates"
+    "Monthly-Projection-graph Monthly-Projection-graph Other-production-widget Calendar-and-recent-updates"
+    "Users-projects-and-task Users-projects-and-task Users-projects-and-task Calendar-and-recent-updates"
+    "Users-projects-and-task Users-projects-and-task Users-projects-and-task Calendar-and-recent-updates";
+}
+
+.Calendar-and-recent-updates { grid-area: Calendar-and-recent-updates; }
+
+.Monthly-Projection-graph { grid-area: Monthly-Projection-graph; }
+
+.Users-projects-and-task { grid-area: Users-projects-and-task; }
+
+.Other-production-widget { grid-area: Other-production-widget; }
+
+
+/* For presentation only, no need to copy the code below */
+.grid-container * {
+  border: 1px solid red;
+  position: relative;
+}
+
+.grid-container *:after {
+  content:attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Admin Users Control */
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    "User-info Photo Photo"
+    "User-info Rest-Password-and-group-management Rest-Password-and-group-management";
+}
+
+.User-info { grid-area: User-info; }
+
+.Photo { grid-area: Photo; }
+
+.Rest-Password-and-group-management { grid-area: Rest-Password-and-group-management; }
+
+
+/* For presentation only, no need to copy the code below */
+.grid-container * {
+  border: 1px solid red;
+  position: relative;
+}
+
+.grid-container *:after {
+  content:attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
