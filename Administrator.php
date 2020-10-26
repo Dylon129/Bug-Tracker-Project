@@ -6,7 +6,69 @@
     <div id="main" class="grid-container adminMain">
         <div class="Calendar-and-recent-updates">Calander/Recent updates</div>
         <div class="Monthly-Projection-graph"></div>
-        <div class="Users-projects-and-task"></div>
+        <div class="Users-projects-and-task">
+            <table>
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Name</th>
+                        <th>Queue</th>
+                        <th>Metrics</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>User</td>
+                        <td>Name</td>
+                        <td>Queue</td>
+                        <td>Metric</td>
+                    </tr> 
+                    <tr>
+                        <td>User</td>
+                        <td>Name</td>
+                        <td>Queue</td>
+                        <td>Metric</td>
+                    </tr>     
+                    <tr>
+                        <td>User</td>
+                        <td>Name</td>
+                        <td>Queue</td>
+                        <td>Metric</td>
+                    </tr>     
+                    <tr>
+                        <td>User</td>
+                        <td>Name</td>
+                        <td>Queue</td>
+                        <td>Metric</td>
+                    </tr>   
+                    <tr>
+                        <td>User</td>
+                        <td>Name</td>
+                        <td>Queue</td>
+                        <td>Metric</td>
+                    </tr>   
+                    <tr>
+                        <td>User</td>
+                        <td>Name</td>
+                        <td>Queue</td>
+                        <td>Metric</td>
+                    </tr>   
+                    <tr>
+                        <td>User</td>
+                        <td>Name</td>
+                        <td>Queue</td>
+                        <td>Metric</td>
+                    </tr>   
+                    <tr>
+                        <td>User</td>
+                        <td>Name</td>
+                        <td>Queue</td>
+                        <td>Metric</td>
+                    </tr>   
+                </tbody>
+            </table>
+        
+        </div>
         <div class="Other-production-widget"></div>
     </div>
     

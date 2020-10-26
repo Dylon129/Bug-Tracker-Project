@@ -5,13 +5,13 @@
     <table id="main">
         <thead>
             <tr>
-            <th>BUG</th>
-            <th>CREATED</th>
-            <th>REPORTER</th>
-            <th>DUE</th>
-            <th>STATUS</th>
-            <th>SEVERITY</th>
-            <th>IS IT REPRODUCIBLE</th>
+                <th>BUG</th>
+                <th>CREATED</th>
+                <th>REPORTER</th>
+                <th>DUE</th>
+                <th>STATUS</th>
+                <th>SEVERITY</th>
+                <th>IS IT REPRODUCIBLE</th>
             </tr>        
         </thead>
         <tbody>
